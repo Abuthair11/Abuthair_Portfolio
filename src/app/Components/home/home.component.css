@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+  .hero-content{
+
+    width: 636px;
+    height: 297px;
+    font-family: 'Poppins', sans-serif;
+    margin: 190px ;
+    color: #42446E;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+  }
+  .hero-img{
+     width: 636px;
+     height: 297px;
+  }
+ .hero{
+  width: 100%;
+  margin: 0px 0px 0px -100px;
+  /* border: 1px solid red; */
+  
+ }

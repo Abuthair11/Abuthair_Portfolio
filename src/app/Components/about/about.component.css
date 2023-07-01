@@ -1,0 +1,74 @@
+.parentabout{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.about{
+    border: 1px solid silver;
+    height: 350px;
+    width: 300px;
+    border-radius: 12px;
+    position: relative;
+    margin-top:  39px;
+    margin-right: 170px;
+    margin-left: 240px;
+    
+
+}
+.about-img{
+    width: 100%;
+    border-top-right-radius:12px ;
+    border-top-left-radius:12px ;
+    position: relative;
+}
+
+.face{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    object-fit: cover;
+    background-color:white;
+    border: 2px solid red;
+    border-radius: 100%;
+    top: 41%;
+    left: 32%;
+}
+
+.aboutName{
+    margin-top: 40px;
+}
+span::before{
+    text-align: center;
+    content: '';
+    color: #ed0505;
+    animation: profile 10s infinite;
+  }
+  @keyframes profile {
+    0% { content: 'Java Developer'}
+    50% { content: 'Web Developer'}
+    100%{ content: 'Cricketer';}
+  }
+
+  .anima{
+   text-align: center;
+  }
+  .about-des{
+    width: 600px;
+   /* border: 1px solid red;
+   background-color: antiquewhite; */
+   margin-left: -100px;
+   margin-top: 55px;
+  }
+  .leftContent{
+    font-size: 26px;
+  }
+  .btn{
+    border: none;
+    background-color: black;
+    padding: 12px 33px;
+    border-radius: 30px;
+  }
+  a{
+text-decoration: none;
+color: white; 
+ }

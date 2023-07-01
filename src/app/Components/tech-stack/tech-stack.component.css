@@ -1,0 +1,22 @@
+.stack{
+    font-family:  'Poppins', sans-serif;
+    
+}
+.cap{
+color: #42446E;
+font-size: 29px;
+
+line-height: 26px;
+}
+
+.iconRow{
+    height: 100px;
+    width: 100px;
+}
+.icons{
+    padding: 70px;
+    margin: 90px 160px 160px 160px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+}
