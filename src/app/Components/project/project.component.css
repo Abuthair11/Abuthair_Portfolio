@@ -1,0 +1,47 @@
+
+.Projects-tab{
+    width: 323px;
+    height: 467px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.desc{
+    padding: 8px;
+   font-size: 14px;
+}
+.Live{
+    display: flex;
+    gap: 5px;
+}
+.githublink{
+    display: flex;
+    gap: 5px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.link_word{
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+}
+
+.card{
+    width: 300px;
+    height: 540px;
+    border:1px solid lightgray;
+    border-radius: 16px;
+    
+}
+
+.card-img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+

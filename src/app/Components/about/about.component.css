@@ -1,7 +1,6 @@
 .parentabout{
     display: flex;
     align-items: center;
-    padding-top: 50px;
 }
 .about{
     border: 1px solid silver;
@@ -31,7 +30,7 @@
     border: 2px solid red;
     border-radius: 100%;
     top: 41%;
-    left: 32%;
+    left: 34%;
 }
 
 .aboutName{
@@ -72,3 +71,54 @@ span::before{
 text-decoration: none;
 color: white; 
  }
+ .heading{
+  padding-top: 20px;
+ }
+ .exp_rectangle{
+  width: 890px;
+  height: 65px;
+  margin-top:  39px;
+    margin-right: 190px;
+    margin-left: 290px;
+ }
+ .exp_tab{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .orga_tab{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .organization{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  gap: 10px;
+ }
+ 
+ .job-type{
+  display: flex;
+  justify-content: center;
+  width: 104px;
+  height: 30px;
+  background-color: #D7FFE0;
+  color:#018C0F ;
+  border-radius: 30px;
+  font-size: 10px;
+ } 
+ .divider{
+  padding-top: 50px;
+  border-bottom: 5px solid silver;
+  width: 900px;
+  margin-top:  39px;
+  margin-right: 190px;
+  margin-left: 290px;
+ }
+ .heading{
+  margin-top:  39px;
+  margin-right: 190px;
+  margin-left: 255px;
+ }
+
