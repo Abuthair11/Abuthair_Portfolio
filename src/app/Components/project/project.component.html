@@ -1,7 +1,7 @@
 <p>project works!</p>
 <h3 class="title">Projects</h3>
 
-<div class="card">
+<!-- <div class="card">
     <div class="card-img">
         <img [src]="'./assets/images/wallpaperabout.jpg'" class="card-img" alt="">
     </div>
@@ -31,4 +31,45 @@
        </div>
     </div> 
     
- </div> 
+ </div>  -->
+ 
+<div class="parent_tab">
+    <div class="Projects-tab" *ngFor="let items of Projects">
+        <div class="card-img">
+            <img src={{items.img}} class="card-img" alt="">
+        </div>
+        <div class="project-content">
+            <h4 class="center">{{items.name}}</h4>
+            <p class=" desc">{{items.Desc}}</p>
+            <p class="desc">TechStack :{{items.techstack}}</p>
+            <div class="links">
+                <div class="Live">
+                    <div class="liveIcon">
+                       <img [src]="'./assets/images/livelink.svg'"  alt="">
+                    </div>
+                    <div class="">
+                       <a class="link_word" href="{{items.liveUrl}}"  target="_blank">Live Preview</a>
+                    </div>
+               </div>
+               <div class="githublink">
+                   <div class="gitIcon">
+                      <img [src]="'./assets/images/projectGit.svg'"  alt="">
+                   </div>
+                   <div class="">
+                       <a class="link_word" href="{{items.gitUrl}}" target="_blank" >gitHub Link</a>
+                   </div>
+            </div>
+            
+           </div>
+        </div> 
+        
+     </div> 
+</div>
+
+ <!-- </ng-template>
+ <h1  *ngFor="let items of Projects">
+    {{items.name}} <br>
+    {{items.Desc}}
+    <img src={{items.img}} alt="">
+
+ </h1> -->
